@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.section_container{
+    @apply max-w-6xl mx-auto px-10 md:p-0
+}
+
+.container_content{
+   @apply max-w-lg mx-auto leading-7 text-center text-gray-400 text-xl
+}
+@layer base{
+    h3{
+       @apply text-center font-bold text-4xl md:text-5xl text-slate-600 mb-10
+    }
+
+}
